@@ -10,7 +10,7 @@
  From the command line, cd into a directory where you’d like to store your code, then run the following command:
 
  $ django-admin startproject mysite
-  This will create a mysite directory in your current directory. If it didn’t work, see [here for the details] (https://docs.djangoproject.com/en/1.11/faq/troubleshooting/#troubleshooting-django-admin)
+  This will create a mysite directory in your current directory. If it didn’t work, see [here for the details](https://docs.djangoproject.com/en/1.11/faq/troubleshooting/#troubleshooting-django-admin)
   
   Let’s look at what startproject created:
 
