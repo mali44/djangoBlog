@@ -49,3 +49,4 @@
     Starting development server at http://127.0.0.1:8000/
     Quit the server with CONTROL-C.
             
+Everthing That I told above is taken from the [Django-Document Official website](https://docs.djangoproject.com/en/1.11/intro/tutorial01/)
