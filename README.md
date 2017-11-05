@@ -4,12 +4,13 @@
 
  $ python -m django --version
  
-    If Django is installed, you should see the version of your installation. If it isn’t, you’ll get an error telling “No module named django”
+    If Django is installed, you should see the version of your installation.
+    If it isn’t, you’ll get an error telling “No module named django”
  
  From the command line, cd into a directory where you’d like to store your code, then run the following command:
 
  $ django-admin startproject mysite
-  This will create a mysite directory in your current directory. If it didn’t work, see https://docs.djangoproject.com/en/1.11/faq/troubleshooting/#troubleshooting-django-admin
+  This will create a mysite directory in your current directory. If it didn’t work, see [here for the details] (https://docs.djangoproject.com/en/1.11/faq/troubleshooting/#troubleshooting-django-admin)
   
   Let’s look at what startproject created:
 
@@ -30,7 +31,7 @@
             ⋅⋅* **mysite/wsgi.py**: An entry-point for WSGI-compatible web servers to serve your project. See How to deploy with WSGI for more details.
             
             
-#The development server:
+# The development server:
      Let’s verify your Django project works. Change into the outer mysite directory, if you haven’t already, and run the following commands:
 
     $ python manage.py runserver
